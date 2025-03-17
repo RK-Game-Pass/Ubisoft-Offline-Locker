@@ -9,6 +9,9 @@ import sys
 JSON_FILE = "ubisoft_path.json"
 
 def load_saved_path():
+    default_path = r"C:\Program Files (x86)\Ubisoft\Ubisoft Game Launcher\UplayWebCore.exe"
+    if os.path.exists(default_path):
+        return default_path
     """Loads the last saved file path"""
     if os.path.exists(JSON_FILE):
         try:
