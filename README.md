@@ -10,7 +10,7 @@ Ubisoft Offline Locker is a simple tool that allows users to easily block the in
 ✅ **Simple UI**: A lightweight and user-friendly interface.  
 
 ## Screenshots
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/screenshot.png?raw=true)
+![alt text](https://github.com/RK-Game-Pass/Ubisoft-Offline-Locker/blob/main/screenshot.png?raw=true)
 
 ## How It Works
 
