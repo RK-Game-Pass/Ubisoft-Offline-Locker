@@ -3,6 +3,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 import os
 import json
+import sys
 
 # JSON file name to save the EXE path
 JSON_FILE = "ubisoft_path.json"
@@ -76,10 +77,18 @@ def select_file():
     if file_path:
         exe_path_var.set(file_path)
 
+def get_icon_path():
+    """Gère l'embarquement de l'icône dans l'exécutable"""
+    if getattr(sys, 'frozen', False):
+        return os.path.join(sys._MEIPASS, "icon.ico")
+    else:
+        # Mode développement : chemin local
+        return "icon.ico"
+    
 # Tkinter GUI
 root = tk.Tk()
 root.title("Ubisoft Offline Locker")
-root.iconbitmap("icon.ico")
+root.iconbitmap(get_icon_path())
 
 # Load saved file path and pre-fill the input field
 exe_path_var = tk.StringVar(value=load_saved_path())

@@ -45,7 +45,7 @@ The software modifies the **Windows Firewall rules** to either block or allow in
    ```
 3. **Build the executable:**
    ```sh
-   pyinstaller --onefile --noconsole --icon=icon.ico --name=UbisoftOfflineLocker --uac-admin main.py
+   pyinstaller --onefile --noconsole --icon=icon.ico --add-data "icon.ico;." --name=UbisoftOfflineLocker --uac-admin main.py
    ```
 4. The compiled `.exe` file will be in the `dist/` folder.
 
