@@ -26,7 +26,7 @@ The software modifies the **Windows Firewall rules** to either block or allow in
 
 ### 🔹 Using Prebuilt EXE
 
-1. Download `UbisoftOfflineLocker.exe` from the [Releases](https://github.com/RK-Game-Pass/UbisoftOfflineLocker/releases) page.
+1. Download `UbisoftOfflineLocker.exe` from the [Releases](https://github.com/RK-Game-Pass/Ubisoft-Offline-Locker/releases) page.
 2. Run it **as Administrator** (Right-click → "Run as administrator").
 3. Select the **`UplayWebCore.exe`** file from the Ubisoft Connect installation folder.
 4. Click **"Block connection"** to disable online access.
@@ -36,8 +36,8 @@ The software modifies the **Windows Firewall rules** to either block or allow in
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/RK-Game-Pass/UbisoftOfflineLocker.git
-   cd UbisoftOfflineLocker
+   git clone https://github.com/RK-Game-Pass/Ubisoft-Offline-Locker.git
+   cd Ubisoft-Offline-Locker
    ```
 2. **Install dependencies:**
    ```sh
@@ -52,7 +52,7 @@ The software modifies the **Windows Firewall rules** to either block or allow in
 ## 🛠️ Usage Instructions
 
 ### 1️⃣ **Launching the Application**
-- **Option 1:** Download the EXE from [Releases](https://github.com/RK-Game-Pass/UbisoftOfflineLocker/releases/latest).
+- **Option 1:** Download the EXE from [Releases](https://github.com/RK-Game-Pass/Ubisoft-Offline-Locker/releases/latest).
 - **Option 2:** Build the EXE from the source code (see "Installation" section).
 - **IMPORTANT:** **Run as Administrator**  
   → **Right-click** on `UbisoftOfflineLocker.exe` → **Select "Run as administrator"**  
